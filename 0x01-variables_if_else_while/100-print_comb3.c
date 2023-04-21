@@ -2,7 +2,7 @@
 
 /**
  * main - Prints all possible combinations of two different digits,
- *        in ascending order, separated by a comma followed by a space.
+ *        in ascending order and separated by a comma followed by a space.
  *
  * Return: Always 0.
  */
@@ -18,11 +18,9 @@ putchar((num1 % 10) + '0');
 putchar((num2 % 10) + '0');
 
 if (num1 == 8 && num2 == 9)	
-
 continue;	
 putchar(',');
 putchar(' ');
-
 }
 }
 putchar('\n');
