@@ -1,13 +1,13 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* This program will assign a random number to the variable n each time it is executed*/
+#include <stdio.h>
 
-/* main - Prints the last digit of a randomly generated number
- *  and whether it is greater than 5, less than 6, or 0.
+/**
+ * main - Prints the last digit of a randomly generated number
+ *        and return if it is greater than 5, less than 6, or 0.
  *
  * Return: Always 0.
- * */
+ */
 int main(void)
 {
 	int n;
@@ -33,5 +33,4 @@ int main(void)
 
 	return (0);
 
-}
-	
+}	
