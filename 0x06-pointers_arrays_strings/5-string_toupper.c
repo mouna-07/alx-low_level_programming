@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * string_toupper - switch from lowercase to uppercase
- * @p: pointeur
+ * @o: pointeur
  *
  * Return: o
  */
