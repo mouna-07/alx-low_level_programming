@@ -7,8 +7,7 @@
  * Return: factorial of i
  */
 int factorial(int i)
-{
-	
+{	
 	if (i < 0)
 		return (-1);
 	if (i == 0)
