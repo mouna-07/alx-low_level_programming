@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
- * _pow_recursion - returns x power of y
- * @a: number
- * @b: exponentiel
+ * _pow_recursion - returns a raised power of b
+ * @a: value to be raised 
+ * @b: power to be add
  *
- * Return: a power b
+ * Return: result of the power
  */
 int _pow_recursion(int a, int b)
 {
-	if (a < 0)
+	if (b < 0)
 		return (-1);
 	if (b == 0)
 		return (1);
