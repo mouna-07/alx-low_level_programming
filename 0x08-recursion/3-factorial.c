@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * factorial - returns factorial of numbers
- * @i: input
+ * factorial - retourne la factorielle d'un nombre
+ * @i: nombre avec lequel on calcule la factor
  *
- * Return: factorial of i
+ * Return: factorielle de i
  */
 int factorial(int i)
-{	
+{
 	if (i < 0)
 		return (-1);
 	if (i == 0)
