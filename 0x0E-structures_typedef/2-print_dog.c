@@ -4,18 +4,18 @@
 
 /**
  * print_dog - returns a struct named dog
- * @strct: the struct in question
+ * @s: the struct in question
  */
-void print_dog(struct dog *strct)
+void print_dog(struct dog *s)
 {
-	if (strct == NULL)
+	if (s == NULL)
 		return;
 
-	if (strct->name == NULL)
-		strct->name = "(nil)";
-	if (strct->owner == NULL)
-		strct->owner = "(nil)";
+	if (s->name == NULL)
+		s->name = "(nil)";
+	if (s->owner == NULL)
+		s->owner = "(nil)";
 
-	printf("Name: %s\nAge: %f\nOwner: %s\n", strct->name, strct->age, strct->owner);
+	printf("Name: %s\nAge: %f\nOwner: %s\n", s->name, s->age, s->owner);
 }
 
