@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * print_name - pointer to function
- * @nom: string a ajouter 
+ * @nom: string a ajouter
  * @p: pointeur sur la fonction
  * Return: nothing
  **/
