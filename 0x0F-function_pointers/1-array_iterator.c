@@ -1,7 +1,7 @@
 #include "function_pointers.h"
 #include <stdio.h>
 /**
- * array_iterator - affiche les elem dun tab 
+ * array_iterator - affiche les elem dun tab
  * @tab: tableau
  * @elem: elements a afficher
  * @ap: pointer to print in regular or hex
