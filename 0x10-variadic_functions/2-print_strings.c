@@ -3,7 +3,7 @@
 #include <stdarg.h>
 
 /**
- * print_numbers - affiche les nombres suivis par une ligne.
+ * print_strings - affiche les strings suivis par une ligne.
  * @sep: string qui separe deux numeros.
  * @nb: nombre de int passes a la fonction.
  * @...:un nombre variable de nombres passes .
